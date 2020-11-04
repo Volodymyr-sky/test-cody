@@ -1,0 +1,39 @@
+// --------------------------------
+
+// Custom Style - your bespoke style
+
+// --------------------------------
+
+@import 'custom-style/colors';
+@import 'custom-style/spacing';
+@import 'custom-style/shared-styles';
+@import 'custom-style/typography';
+@import 'custom-style/icons';
+@import 'custom-style/buttons';
+@import 'custom-style/forms';
+@import 'custom-style/util';
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+.section-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #516e90;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.3em;
+    padding: 3em 0;
+    font-size: 38px;
+}
+
+.section__inner {
+    align-items: center;
+    justify-content: center;
+}
+
+.section--blue {
+    background-color: #ecf5fe;
+}

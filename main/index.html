@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    document.getElementsByTagName("html")[0].className += " js";
+  </script>
+  <link id="codyframe" rel="stylesheet" href="assets/css/style.css">
+  <!-- browsers not supporting CSS variables -->
+  <script>
+    if (!('CSS' in window) || !CSS.supports('color', 'var(--color-var)')) {
+      var cfStyle = document.getElementById('codyframe');
+      if (cfStyle) {
+        var href = cfStyle.getAttribute('href');
+        href = href.replace('style.css', 'style-fallback.css');
+        cfStyle.setAttribute('href', href);
+      }
+    }
+  </script>
+  <title>Get Started | CodyFrame</title>
+</head>
+
+<body>
+  <header class="header position-relative js-header ">
+    <div class="header__container container max-width-lg">
+      <div class="header__logo">
+        <a href="#0">
+          <img class="header__img" src="./assets/img/theweb-logo.png" alt="Logotype">
+          <h1 class="header__logo-text">
+            <span class="header__title">theweb</span>
+            <span class="header__subtitle">digital company</span>
+          </h1>
+        </a>
+      </div>
+
+      <button class="btn btn--subtle header__trigger js-header__trigger" aria-label="Toggle menu" aria-expanded="false"
+        aria-controls="header-nav">
+        <i class="header__trigger-icon" aria-hidden="true"></i>
+        <span>Menu</span>
+      </button>
+
+      <nav class="header__nav js-header__nav" id="header-nav" role="navigation" aria-label="Main">
+        <div class="header__nav-inner">
+          <div class="header__label">Main menu</div>
+          <ul class="header__list">
+            <li class="header__item"><a href="#0" class="header__link">SERVICES</a></li>
+            <li class="header__item"><a href="#0" class="header__link">EXPERTISE</a></li>
+            <li class="header__item"><a href="#0" class="header__link">TECHNOLOGIES</a></li>
+            <li class="header__item"><a href="#0" class="header__link">Contact us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section class="main">
+    <div class="main__inner container max-width-lg">
+      <div class="main__container col-4 ">
+        <h2 class="main__title">
+          Result-oriented software development agency
+        </h2>
+        <div class="main__text">
+          <br>
+          We do consulting, business analysis, product design and full-cycle software development. We support our
+          customers
+          to reach the best results in the domain.
+          <br>
+          <br>
+          Web &amp; mobile apps development, digital marketing and market promotion.
+          We work efficiently with your goals in mind.
+
+        </div>
+
+        <div class="main__buttons">
+          <button class="btn btn--accent text-capitalize">request service</button>
+          <button class="btn btn--primary text-capitalize ">estimate project</button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="section container max-width-lg">
+    <h3 class="section-title">
+      Services
+    </h3>
+
+    <div class="section__inner grid">
+      <div class="feature col-3 radius-lg margin-sm shadow-lg ">
+        <img src="assets/img/business.svg" alt="Business Consulting" class="feature__img">
+        <h4 class="feature__title">Business Consulting</h4>
+        <div class="feature__content">
+          Startups Development
+          <br>
+          IT Strategy Consulting
+          <br>
+          MVP Development
+        </div>
+      </div>
+
+      <div class="feature col-3 radius-lg margin-sm shadow-lg ">
+        <img src="assets/img/product_design.svg" alt="Product Design" class="feature__img">
+        <h4 class="feature__title">Product Design</h4>
+        <div class="feature__content">
+          Business Process Modeling
+          <br>
+          Business Analysis
+          <br>
+          Product Architecture
+        </div>
+      </div>
+
+      <div class="feature col-3 radius-lg margin-sm shadow-lg ">
+        <img src="assets/img/webdev.svg" alt="Web Development" class="feature__img">
+        <h4 class="feature__title">Web Development</h4>
+        <div class="feature__content">
+          FrontEnd
+          <br>
+          BackEnd
+<br>
+          Cloud Solutions
+        </div>
+      </div>
+
+        <div class="feature col-3 radius-lg margin-sm shadow-lg ">
+          <img src="assets/img/mobile_dev.svg" alt="Mobile Development" class="feature__img">
+          <h4 class="feature__title">Mobile Development</h4>
+          <div class="feature__content">
+            iOS
+            <br>
+Android <br>
+Wearable
+          </div>
+        </div>
+
+          <div class="feature col-3 radius-lg margin-sm shadow-lg ">
+            <img src="assets/img/custom_software.svg" alt="Custom Development" class="feature__img">
+            <h4 class="feature__title">Custom Development</h4>
+            <div class="feature__content">
+              eCommerce <br>
+CRM
+<br>
+Marketplaces
+            </div>
+          </div>
+
+            <div class="feature col-3 radius-lg margin-sm shadow-lg">
+              <img src="assets/img/digital_marketing.svg" alt="Web Development" class="feature__img">
+              <h4 class="feature__title">Digital Marketing</h4>
+              <div class="feature__content">
+                SEO
+                <br>
+Social Media Marketing
+<br>
+Content Marketing
+              </div>      
+            </div>
+
+            </div>
+          </div>
+
+  </section>
+
+  <section class="section section--blue">
+    <h3 class="section-title">
+      Experties
+    </h3>
+  </section>
+
+
+  <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>

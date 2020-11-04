@@ -1,0 +1,28 @@
+.feature {
+    border-bottom: 5px solid;
+    padding: 60px;
+    height: 468px;
+    text-align: center;
+
+    .feature__title {
+
+        font-size: 28px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        color: #516e90;
+        margin: .5em 0;
+    }
+
+    .feature__img {
+        width: 100px;
+        margin-bottom: 25px;
+    }
+
+    .feature__content {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+        color: #4b5d73;
+        font-size: 16px;
+        margin-top: 2em;
+    }
+}
